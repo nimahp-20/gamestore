@@ -14,6 +14,17 @@ module.exports = {
         poppins: ["var(--font-poppins)", ...defaultTheme.fontFamily.sans],
         montserrat: ["var(--font-montserrat)", ...defaultTheme.fontFamily.sans],
       },
+      backgroundImage: {
+        "primary-gradinet":
+          "linear-gradient(180.96deg, #000000 0.82%, #4A2800 129.1%)",
+      },
+      colors: {
+        primary: {
+          light: "#FCC182",
+          DEAFULT: "#FA9021",
+          dark: "AF5B04",
+        },
+      },
     },
   },
   plugins: [],
